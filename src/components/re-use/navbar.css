@@ -1,0 +1,34 @@
+.Navbar{
+    background-color:#aaa69d;
+    margin:0 -2rem;
+    padding:0 2rem;
+}
+.Navbar > ul{
+    width:50%;
+    display:flex;
+    justify-content: space-between;
+    padding:1rem 0;
+}
+.Navbar > ul > li{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width: 720px){
+    .Navbar{
+        background-color:#aaa69d;
+        margin:0 -2rem;
+        padding:0;
+    }
+    .Navbar > ul{
+        width:100%;
+        justify-content: space-around;
+        padding:1rem 0;
+    }
+
+}
